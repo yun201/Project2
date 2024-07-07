@@ -2,7 +2,7 @@ import Contact from './Contact';
 import Games from './Games';
 import Home from './Home';
 import Navbar from './Navbar';
-import { BrowserRouter as Switch, Route, Routes } from 'react-router-dom';
+import { HashRouter as Switch, Route, Routes } from 'react-router-dom';
 
 
 function App() {
