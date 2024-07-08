@@ -5,7 +5,7 @@ const Navbar = () => {
     return ( 
         <nav className="navbar">
             <img src={logo} width={70} height={70} alt="Logo" />
-            <h1 style={{marginLeft: 10}}>GameSword</h1>
+            <h1 style={{ marginLeft: 10 }}>GameSword</h1>
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/games">Games</Link>
@@ -16,3 +16,4 @@ const Navbar = () => {
 }
  
 export default Navbar;
+
